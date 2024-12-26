@@ -1,0 +1,136 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+.env.local
+.env.production
+.env.*.local
+
+# virtualenv
+venv/
+ENV/
+env.bak/
+.env.bak/
+.venv/
+.env/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Kaggle related
+/kaggle/input/
+/kaggle/working/
+
+# Model files and weights
+*.h5
+*.weights
+*.model
+
+# Custom source files
+src/data/data_augmentation.py
+src/data/data_generators.py
+src/data/data_paths.py
+src/data/load_data.py
+src/models/cnn_model.py
+src/models/compile_model.py
+src/models/evaluate_model.py
+src/models/make_predictions.py
+src/models/model_training.py
+src/models/save_model.py
+src/models/save_weights.py
+src/visualization/display_predictions.py
+src/visualization/image_processing.py
+src/visualization/plot_training_results.py
+src/utils/config.py
+src/utils/label_mapping.py
+src/utils/setup_environment.py
+src/utils/training_config.py
+
+# User specific files
+data/
+notebooks/
